@@ -1,2 +1,6 @@
+import random
+a = 1
 for i in range(1000):
-    print(i)
+    a = random.randrange(1,100) * a
+
+print(a)
